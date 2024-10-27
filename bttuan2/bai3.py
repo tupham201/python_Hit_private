@@ -12,7 +12,7 @@ if st.find("CNTT") == -1:
 else: print("YES")
 for i in st:
     if( i >= 'A' and i <= 'Z'):
-        i.lower(i)
+        i.lower()
     if( i >='a' and i <= 'z'): 
-        i.upper(i)
+        i.upper()
 print(st)
