@@ -13,10 +13,10 @@ if a < b:
 if a == b:
     print("a bằng b")
 
-print(a & b)
-print(a | b)
-print(not a == b)
-print(a ^ b)
-print(a << 5)
-print(a >> 6)
+print("a and b = ",a & b)
+print("a or b = ",a | b)
+print("a not b = ",not a == b)
+print("a xor b = ",a ^ b)
+print("dịch trái của a 5 bit = ",a << 5)
+print("dịch phải của b 6 bit = ",a >> 6)
 print(~a)
