@@ -1,0 +1,1 @@
+if( i >= 'a' and i <= 'z'):print(i)
