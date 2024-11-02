@@ -1,12 +1,11 @@
-print("Họ và Tên của anh Hùng: ")
-Ten = input()
-print("Tuổi của anh Hùng: ")
-Tuoi = input(int)
-print("Giới tính: ")
-GT = input()
-print("Tình Trạng hôn nhân: ")
-TT = input()
-print("Họ và Tên của anh Hùng: " + Ten)
-print("Tuổi của anh Hùng: " + Tuoi)
-print("Giới tính: " + GT)
-print("Tình Trạng hôn nhân: " + TT)
+print("Bạn muốn tính hàm: ")
+st = input()
+print("Tính số ")
+a = int(input())
+if st == "sin":
+    s = 0
+    t =a
+    for i in range(1,10000):
+        s += t
+        t *= (-1)*a*a/((2*i+1)*(2*i))
+    print(s)
